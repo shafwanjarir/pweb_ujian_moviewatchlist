@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import './../styles/App.css'
 
-const API_URL = 'http://localhost/pweb_moviewatchlist/backend/api/movies.php'
+const API_URL = 'http://localhost/pweb_ujian_moviewatchlist/backend/api/movies.php'
 
 function AddEditForm({ movie, onClose, onSave }) {
   const [formData, setFormData] = useState({

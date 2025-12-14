@@ -22,7 +22,7 @@ Aplikasi full-stack daftar tontonan film dengan backend PHP dan frontend React.
 1. Jalankan XAMPP dan pastikan Apache serta MySQL aktif
 2. Buka browser dan akses:
    ```
-   http://localhost/pweb_moviewatchlist/backend/setup/create_database.php
+   http://localhost/pweb_ujian_moviewatchlist/backend/setup/create_database.php
    ```
 3. Ini akan membuat database `movie_watchlist` dan tabel `movies`
 
@@ -30,7 +30,7 @@ Aplikasi full-stack daftar tontonan film dengan backend PHP dan frontend React.
 
 1. Salin folder `backend` ke direktori `htdocs` XAMPP:
    ```
-   C:\xampp\htdocs\pweb_moviewatchlist\backend\
+   C:\xampp\htdocs\pweb_ujian_moviewatchlist\backend\
    ```
 2. Pastikan kredensial database di `backend/api/config.php` sesuai dengan pengaturan MySQL XAMPP Anda (default: root, tanpa kata sandi)
 

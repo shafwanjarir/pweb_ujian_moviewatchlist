@@ -5,7 +5,7 @@ import Toolbar from './Toolbar'
 import AddEditForm from './AddEditForm'
 import './../styles/App.css'
 
-const API_URL = 'http://localhost/pweb_moviewatchlist/backend/api/movies.php'
+const API_URL = 'http://localhost/pweb_ujian_moviewatchlist/backend/api/movies.php'
 
 function MovieList() {
   const [movies, setMovies] = useState([])
